@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E S W A R</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+        body{
+            background-color: rgb(4, 11, 48);
+            color: white;
+            font-family: 'Poppins' , sans-serif;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 60px;
+            background-color: rgb(23, 4, 72);
+            
+        }
+        nav ul{
+             display: flex;
+             justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+        
+        }    
+        .left{
+            font-size: 1.5rem;
+
+        }
+        .first{
+            display: flex;
+            justify-content: space-around;
+            margin: 23px 0;
+        }
+        .first div{
+            width: 40%;
+        }
+        .leftsection{
+            /* background-color: rgb(89, 53, 10); */
+            width: 40%;
+            font-size: 2rem;
+            margin: 40px;
+        }
+        .rightsection{
+            width: 70%;
+            margin: 35px;
+        }
+        .blue{
+            color: rgb(86, 30, 227);;
+        }
+        #element{
+            color: rgb(86, 30, 227);;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left"> E S W A R_ P O R T-F O L I O</div>
+            <div class="right">
+                <ul>
+                  <li><a href="/HTML/">Home</li></a>
+                  <li><a href="/HTML/">About</li></a>
+                  <li><a href="/HTML/">Services</li></a>
+                  <li><a href="/HTML/">Projects</li></a>
+                  <li><a href="/HTML/">Contact Me</li></a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="first">
+            <div class="leftsection">
+                Hi, My name is <span class="blue">E S W A R </span> 
+
+            <div>and I am a passionate</div>
+            <!-- <div>Web Developer</div> -->
+            <span id="element"></span>
+        </div>
+            <div class="rightsection">
+                <img src="/Web img.png" alt="">
+            </div>
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web developer', 'Dubbing Artist', 'Web Designer', 'Video Editor'],
+          typeSpeed: 50,
+        });
+      </script>
+    
+</body>
+</html>
